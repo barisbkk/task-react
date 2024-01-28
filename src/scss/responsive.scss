@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1600px) {
+  header {
+    padding: 9rem 0;
+    h1 {
+      font-size: 3.5rem;
+    }
+    input {
+      width: 60%;
+      padding: 1rem;
+    }
+  }
+
+  main {
+    padding: 0 10rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  header {
+    padding: 9rem 0;
+    h1 {
+      font-size: 3.5rem;
+    }
+    input {
+      width: 60%;
+      padding: 1rem;
+    }
+  }
+
+  main {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    padding: 9rem 3rem;
+    h1 {
+      font-size: 3rem;
+    }
+    input {
+      width: 80%;
+      padding: 1rem;
+    }
+  }
+
+  main {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 9rem 0;
+    h1 {
+      font-size: 2rem;
+    }
+    input {
+      width: 80%;
+      padding: 1rem;
+      &::placeholder {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .navbar {
+    flex-direction: column;
+    .logo {
+      margin-bottom: 1rem;
+    }
+  }
+
+  main {
+    margin: 0 0px 0 100px;
+    padding: 0 10px;
+    .badges {
+      flex-direction: column;
+      margin-left: 0;
+      .badge {
+        width: 80%;
+        transition: all 0.5s;
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+    .announcements {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header {
+    padding: 9rem 0;
+    h1 {
+      font-size: 1.8rem;
+    }
+    input {
+      width: 90%;
+      padding: 1rem;
+      &::placeholder {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .navbar {
+    flex-direction: column;
+    .logo {
+      margin-bottom: 1rem;
+    }
+  }
+
+  main {
+    margin: 0;
+    padding: 0 10px;
+    .badges {
+      flex-direction: column;
+      margin-left: 0;
+      .badge {
+        width: 100%;
+        transition: all 0.5s;
+        &::hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+    .announcements {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}

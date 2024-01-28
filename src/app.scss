@@ -1,0 +1,10 @@
+@import "./scss/reset";
+@import "./scss/variables";
+@import "./components/header/header.scss";
+@import "./components/main/main.scss";
+@import "./components/navbar/navbar.scss";
+@import "./scss/responsive.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}

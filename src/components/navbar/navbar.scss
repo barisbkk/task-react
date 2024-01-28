@@ -1,0 +1,56 @@
+@import "../../scss/variables";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $nav-color;
+  color: whitesmoke;
+  padding: 0.3rem;
+  .logo {
+    display: flex;
+    gap: 0.3rem;
+    img {
+      width: 50px;
+      padding-bottom: 1rem;
+    }
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.2rem;
+      h2 {
+        font-weight: 600;
+      }
+      p {
+        margin-left: 2.5rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 1rem;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    .right-text {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      .profile {
+        background-color: #09386c;
+        padding: 0.7rem;
+        border-radius: 50%;
+        font-size: 0.7rem;
+      }
+      p {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
